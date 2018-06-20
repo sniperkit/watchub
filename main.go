@@ -12,11 +12,11 @@ import (
 	"github.com/apex/log"
 	"github.com/apex/log/handlers/logfmt"
 
-	"github.com/caarlos0/watchub/config"
-	"github.com/caarlos0/watchub/controllers"
-	"github.com/caarlos0/watchub/datastore/database"
-	"github.com/caarlos0/watchub/oauth"
-	"github.com/caarlos0/watchub/scheduler"
+	"github.com/sniperkit/watchub/config"
+	"github.com/sniperkit/watchub/controllers"
+	"github.com/sniperkit/watchub/datastore/database"
+	"github.com/sniperkit/watchub/oauth"
+	"github.com/sniperkit/watchub/scheduler"
 
 	"github.com/gorilla/context"
 	"github.com/gorilla/mux"

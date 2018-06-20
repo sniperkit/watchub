@@ -12,8 +12,8 @@ So:
 mkdir -p ~/Code/Go
 echo 'GOPATH="$HOME/Code/Go"' >> ~/.bashrc # or ~/.zshrc
 echo 'PATH="$GOPATH/bin":$PATH' >> ~/.bashrc # or ~/.zshrc
-mkdir -p $GOPATH/src/github.com/caarlos0
-cd $GOPATH/src/github.com/caarlos0
+mkdir -p $GOPATH/src/github.com/sniperkit
+cd $GOPATH/src/github.com/sniperkit
 git clone git@github.com:caarlos0/watchub.git
 cd watchub
 ```

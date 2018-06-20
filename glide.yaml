@@ -1,0 +1,35 @@
+package: github.com/sniperkit/watchub
+import:
+- package: github.com/apex/httplog
+- package: github.com/apex/log
+  subpackages:
+  - handlers/logfmt
+- package: github.com/google/go-github
+  subpackages:
+  - github
+- package: github.com/gorilla/context
+- package: github.com/gorilla/mux
+- package: github.com/gorilla/sessions
+- package: github.com/jmoiron/sqlx
+- package: github.com/lib/pq
+- package: github.com/matcornic/hermes
+- package: github.com/pkg/errors
+- package: github.com/prometheus/client_golang
+  subpackages:
+  - prometheus
+  - prometheus/promhttp
+- package: github.com/robfig/cron
+- package: github.com/sendgrid/sendgrid-go
+  subpackages:
+  - helpers/mail
+- package: github.com/sniperkit/env
+- package: golang.org/x/oauth2
+  subpackages:
+  - github
+- package: golang.org/x/sync
+  subpackages:
+  - errgroup
+testImport:
+- package: github.com/stretchr/testify
+  subpackages:
+  - assert
