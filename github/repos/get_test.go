@@ -6,8 +6,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/caarlos0/watchub/github/repos"
 	"github.com/google/go-github/github"
+	"github.com/sniperkit/watchub/github/repos"
 	"github.com/stretchr/testify/assert"
 	"golang.org/x/oauth2"
 )

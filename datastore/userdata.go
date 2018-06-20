@@ -1,6 +1,6 @@
 package datastore
 
-import "github.com/caarlos0/watchub/shared/model"
+import "github.com/sniperkit/watchub/shared/model"
 
 type Userdatastore interface {
 	GetFollowers(userID int64) ([]string, error)

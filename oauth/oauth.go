@@ -3,9 +3,9 @@ package oauth
 import (
 	"context"
 
-	"github.com/caarlos0/watchub/config"
-	"github.com/caarlos0/watchub/shared/token"
 	"github.com/google/go-github/github"
+	"github.com/sniperkit/watchub/config"
+	"github.com/sniperkit/watchub/shared/token"
 	"golang.org/x/oauth2"
 	githuboauth "golang.org/x/oauth2/github"
 )

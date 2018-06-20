@@ -4,9 +4,9 @@ import (
 	"net/http"
 
 	"github.com/apex/log"
-	"github.com/caarlos0/watchub/config"
-	"github.com/caarlos0/watchub/shared/dto"
 	"github.com/gorilla/sessions"
+	"github.com/sniperkit/watchub/config"
+	"github.com/sniperkit/watchub/shared/dto"
 )
 
 type Base struct {

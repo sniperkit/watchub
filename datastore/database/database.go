@@ -4,8 +4,8 @@ import (
 	"database/sql"
 
 	"github.com/apex/log"
-	"github.com/caarlos0/watchub/datastore"
 	"github.com/jmoiron/sqlx"
+	"github.com/sniperkit/watchub/datastore"
 )
 
 // Connect creates a connection pool to the database

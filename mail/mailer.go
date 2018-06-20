@@ -8,11 +8,11 @@ import (
 	"time"
 
 	"github.com/apex/log"
-	"github.com/caarlos0/watchub/config"
-	"github.com/caarlos0/watchub/shared/dto"
 	"github.com/matcornic/hermes"
 	sendgrid "github.com/sendgrid/sendgrid-go"
 	"github.com/sendgrid/sendgrid-go/helpers/mail"
+	"github.com/sniperkit/watchub/config"
+	"github.com/sniperkit/watchub/shared/dto"
 )
 
 var emailConfig = hermes.Hermes{

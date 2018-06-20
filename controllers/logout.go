@@ -3,8 +3,8 @@ package controllers
 import (
 	"net/http"
 
-	"github.com/caarlos0/watchub/config"
 	"github.com/gorilla/sessions"
+	"github.com/sniperkit/watchub/config"
 )
 
 // Logout ctrl

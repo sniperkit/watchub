@@ -4,9 +4,9 @@ import (
 	"context"
 	"sync"
 
-	"github.com/caarlos0/watchub/shared/model"
 	"github.com/google/go-github/github"
 	"github.com/pkg/errors"
+	"github.com/sniperkit/watchub/shared/model"
 	"golang.org/x/sync/errgroup"
 )
 

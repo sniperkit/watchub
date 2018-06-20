@@ -3,7 +3,7 @@ package diff_test
 import (
 	"testing"
 
-	"github.com/caarlos0/watchub/shared/diff"
+	"github.com/sniperkit/watchub/shared/diff"
 	"github.com/stretchr/testify/assert"
 )
 

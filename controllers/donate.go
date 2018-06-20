@@ -3,9 +3,9 @@ package controllers
 import (
 	"net/http"
 
-	"github.com/caarlos0/watchub/config"
-	"github.com/caarlos0/watchub/shared/pages"
 	"github.com/gorilla/sessions"
+	"github.com/sniperkit/watchub/config"
+	"github.com/sniperkit/watchub/shared/pages"
 )
 
 // Donate ctrl

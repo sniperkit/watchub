@@ -3,9 +3,9 @@ package database
 import (
 	"encoding/json"
 
-	"github.com/caarlos0/watchub/shared/model"
 	"github.com/jmoiron/sqlx"
 	"github.com/lib/pq"
+	"github.com/sniperkit/watchub/shared/model"
 )
 
 // Userdatastore in database

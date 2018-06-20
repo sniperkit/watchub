@@ -1,8 +1,8 @@
 package database
 
 import (
-	"github.com/caarlos0/watchub/shared/model"
 	"github.com/jmoiron/sqlx"
+	"github.com/sniperkit/watchub/shared/model"
 )
 
 // Execstore in database

@@ -3,10 +3,10 @@ package user
 import (
 	"context"
 
-	"github.com/caarlos0/watchub/github/email"
-	"github.com/caarlos0/watchub/github/followers"
-	"github.com/caarlos0/watchub/shared/dto"
 	"github.com/google/go-github/github"
+	"github.com/sniperkit/watchub/github/email"
+	"github.com/sniperkit/watchub/github/followers"
+	"github.com/sniperkit/watchub/shared/dto"
 )
 
 // Info gets a github user info, like login, email and followers

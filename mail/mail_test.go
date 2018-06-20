@@ -5,8 +5,8 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/caarlos0/watchub/config"
-	"github.com/caarlos0/watchub/shared/dto"
+	"github.com/sniperkit/watchub/config"
+	"github.com/sniperkit/watchub/shared/dto"
 	"github.com/stretchr/testify/assert"
 )
 

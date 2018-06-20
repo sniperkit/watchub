@@ -21,7 +21,7 @@
 #  version = "2.4.0"
 
 [metadata.heroku]
-  root-package = "github.com/caarlos0/watchub"
+  root-package = "github.com/sniperkit/watchub"
   go-version = "go1.9.2"
   install = [ "./..." ]
 
